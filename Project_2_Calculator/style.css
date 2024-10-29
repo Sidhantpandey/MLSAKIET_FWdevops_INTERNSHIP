@@ -1,0 +1,109 @@
+ 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+width: 50%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background:rgb(255, 255, 255);
+}
+
+img{
+  /* border: 2px solid red ; */
+  margin-left: 900px;
+  margin-right: 100px;
+  height: 70%;
+  width: 70%;
+  
+}
+
+.calc{
+  border:none;
+  border-radius: 22px;
+  padding: 18px;
+
+}
+
+input{
+  cursor:pointer;
+  width: 380px;
+  padding: 24px;
+  margin:10px;
+  background: white;
+  font-size:22px ;
+  color: black;
+  border:none;
+}
+
+
+button{
+  border:none;
+  width: 70px;
+  height: 70px;
+  margin: 12px;
+  border-radius: 50%;
+  background: rgb(20, 20, 20);
+  font-size: 20px;
+  cursor: pointer;
+  color:white;
+}
+
+.Delete:hover{
+  background-color:red;
+  color:white;
+}
+
+.Clearall:hover{
+  background-color:red;
+  color:white;
+}
+
+.btn:hover{
+  background:white;
+  color:black;
+}
+
+.equal{
+  background-color: #856200;
+}
+
+.equal:hover{
+background-color: rgb(1, 95, 1);
+}
+
+
+.operator{
+  color: white;
+
+} 
+
+
+
+.calc{
+  padding: 20px;
+  border-radius: 16px;
+  background: rgb(75, 75, 75);
+  box-shadow: 15px 15px 15px rgba(32, 32, 32, 0.5);
+
+
+}
+
+input{
+  /* border: 2px solid red; */
+  cursor: pointer;
+  width: 380px;
+  padding: 24px;
+  margin: 10px;
+  background: white;
+  text-align: right;
+  font-size: 38px;
+  color: #1d1c1c;
+}
